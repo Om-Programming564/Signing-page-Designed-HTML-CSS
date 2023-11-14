@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(207, 205, 205);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.spilt {
+    background: #5257f7;
+    height: 18em;
+}
+.borderbox {
+    position: absolute;
+    display: flex;
+    border-radius: 21px;
+    margin-top: 130px;
+    align-items: center;
+    border: 3px solid #fff;
+    margin-left: 15em;
+    background: #fff;
+    height: 25em;
+    width: 55em;
+}
+/* Your Optiion */
+.head {
+    position: relative;
+    margin-bottom: 2em;
+    display: none;
+}
+.containerleft {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+input {
+    outline: none;
+    transition: .2s ease;
+}
+input:focus{
+    outline: #3b9eff;
+}
+.input1 {
+    font-size: 25px;
+    display: flex;
+}
+.input1 input {
+    margin-left: 0px;
+    width: 16em;
+    padding: 0px 3px;
+    height: 2.1em;
+    margin-top: 10px;
+    margin-left: 4.5em;
+    font-size: 16px;
+}
+.input2 {
+    font-size: 25px;    display: flex;
+
+}
+.input2 input {
+    margin-left: 0px;
+    width: 16em;
+    padding: 0px 3px;
+    height: 2.1em;
+    margin-left: 4.8em;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.input3 {
+    font-size: 25px;    display: flex;
+
+}
+.input3 input {
+    margin-left: 0px;
+    width: 16em;
+    padding: 0px 3px;
+    margin-left: 2em;
+    height: 2.1em;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.containerleft button {
+    margin-top: 25px;
+    width: 6.5em;
+    height: 2.6em;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 9px;
+    background: rgb(29, 131, 248);
+    transition:  0.2s ease;
+    font-size: 1.2em;
+}
+.containerleft button:hover {
+    background: rgb(20, 115, 224);
+}
+.containerleft button:active {
+    transform: scale(0.98);
+}
+.boxright {
+    background: linear-gradient(-190deg, rgb(26, 57, 235), rgb(79, 110, 250), rgb(137, 204, 243));
+    border-bottom-left-radius: 94px;
+    border-top-left-radius: 94px;
+    border-bottom-right-radius: 21px;
+    border-top-right-radius: 21px;
+    height: 100%;
+    margin-left: 135px;
+    width: 45em;
+}
+.boxright h2 {
+    position: relative;
+    margin-top: 1em;left: 15px;
+    max-width: 15em;
+    color: #fff;
+}
+.boxright img {
+    width: 100px;
+    border-radius: 100px;
+    margin-left: 5em;
+    margin-top: 2em;
+    border: 2px solid #fff;
+    box-shadow: 1.2px 1px 9px 5px;
+}
+
+hr {
+    position: relative;
+    top: 15px;
+}
+.containerleft span svg {
+    size: 5px;
+}
